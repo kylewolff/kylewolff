@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	<title>Blog: Kyle Wolff</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css"/>
+     
+</head>
+<body>
+<div id="wrapper">
+    <div class="leftNav">
+        <ul class="profile">
+            <li>Kyle Wolff</li>
+            <li>
+                <imc src="#" />
+            </li>
+            <li>Founder</li>
+        </ul>
+    </div>
+    <div class="topNav">
+        <ul class="menu"> <a href="#" class="about"><li>About
+            </li></a>
+ <a href="#" class="blogMenu active"><li>Blog
+            </li></a>
+ <a href="#" class="projectsMenu"><li>Projects
+            </li></a>
+ <a href="#" class="contactMenu"><li>Contact
+            </li></a> 
+        </ul>
+    </div>
+    <div class="subscribe">
+        <form>
+            <input name="subcribe" placeholder="Your Email" class="subscribeInput" />
+            <input name="hidden" type="hidden" />
+            <input type="submit" value="Submit" class="subscribeButton" />
+        </form>
+    </div>
+    
+<!-- <? 
+$sql="SELECT * FROM posts" ; 
+$stmt = $conn->prepare($sql);
+$stmt->bindParam(':blogHeadline', $_POST['blogHeadline'], PDO::PARAM_STR);       
+$stmt->bindParam(':blogDate', $_POST['blogDate'], PDO::PARAM_STR); 
+$stmt->bindParam(':blogText', $_POST['blogText'], PDO::PARAM_STR);
+
+$blogHeade
+$blogDate
+$blogText
+
+echo "<li class="blogHeader">$blogHeader</li>";
+echo "<li class="blogDate">$blogDate</li>";
+echo "<li class="blogText">$blogText</li>";
+
+$stmt->execute(); 
+?> -->
+    
+    <h2>Blog</h2>
+    <div class="mainContainer">
+        <div class="blog">
+            <p class="title">My answer to that simple question, "What do you do?"</p>
+            <ul class="blogContainer">
+                <li class="blogHeader">Header</li>
+                <li class="blogDate">Date</li>
+                <li class="blogText">Text</li>
+            </ul>
+            <div class="contactPanel">
+                <form>
+                    Email:<input name="contact" placeholder="Your Email" class="contactEmail" /> <br></br>
+                    Subject:<input name="subject" placeholder="Subject" class="contactSubject" /> <br></br>
+                    Message:<textarea class="contactMessage"></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
